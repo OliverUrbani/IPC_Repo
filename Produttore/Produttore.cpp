@@ -19,6 +19,7 @@ PROCESS_INFORMATION child_process;
 
 int main(int argc, char* argv[])
 {
+	//commento  YE congzhou
 	struct SHARED *shared_data;
 	HANDLE shared_map, empty_semaphore, full_semaphore;
 	FILE* input_file;
