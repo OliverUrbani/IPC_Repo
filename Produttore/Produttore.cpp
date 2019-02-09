@@ -39,7 +39,7 @@ int main(int argc, char* argv[])
 		printf("Errore creazione memory-map\r\n");
 		return -1;
 	}
-
+	//Commento Urbani Oliver
 	shared_data = (struct SHARED*)MapViewOfFile(shared_map, FILE_MAP_WRITE, 0, 0, sizeof(struct SHARED));
 
 	if (shared_data == NULL)
