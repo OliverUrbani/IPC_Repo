@@ -12,7 +12,7 @@ struct SHARED
 
 int main(int argc, char* argv[])
 {
-	// #Commit eseguito da Akash Verma
+	// Commento eseguito da Verma
 	struct SHARED *shared_data;
 	HANDLE shared_map, empty_semaphore, full_semaphore;
 	FILE* output_file;
